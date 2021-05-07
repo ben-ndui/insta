@@ -17,5 +17,7 @@ Future<MyUser> connexion(String username) async {
     followers: flutterInsta.followers,
     following: flutterInsta.following,
     bio: flutterInsta.bio,
+    fullname: flutterInsta.fullname,
+    profilPic: flutterInsta.imgurl,
   );
 }
